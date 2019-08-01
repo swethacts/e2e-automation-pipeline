@@ -48,6 +48,14 @@
             <artifactId>slf4j-simple</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
+             <!--ifluxdb -->
+	<dependency>
+		<groupId>org.influxdb</groupId>
+		<artifactId>influxdb-java</artifactId>
+		<version>2.7</version>
+	</dependency>
+<!--influxdb -->
+
     </dependencies>
     <build>
         <plugins>
